@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    
+}
+html, body{
+    height: 100%;
+    font-size: 1em;
+    font-family: sans-serif;
+    display: block;
+    
+}
+body {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+*:before , :after{
+    box-sizing: border-box;
+}
+.lunk{
+    padding: 4px 10px;
+}
+
+.headeer{
+   display: flex;
+   background-color: gray;
+   display: block;
+}
+.headeer a{
+ display: block;
+  padding: 20px ;
+  color: #f3f1f1;
+  text-decoration: none;
+  margin-right:10px;
+}
+.container a:hover{
+    color: aqua;
+}
+.dev a:hover{
+    color: aqua;
+    border-bottom: #f3f1f1;
+
+}
+.dev{
+    display: flex;
+    background-color: gray;
+    list-style: none;
+    font-weight: 900;
+    
+}
+.container{
+    display: flex;
+    list-style: none;
+    font-weight: 900;
+    margin-bottom: 10px;
+   
+}
+.btn a:hover{
+    color: chartreuse;
+    text-decoration: none;
+}
+.btn{
+   border-style: solid;
+   border-color: rgba(255, 255, 255, 0.712);
+   margin: 50px auto;
+   height: auto;
+   width: 700px;
+   text-decoration: none;
+    
+}
+.grid{
+    background-color: rgba(255, 255, 255, 0.692);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #f3f1f1;
+  
+}
+.mini-btn{
+    border-style: solid;
+    background-color: aqua;
+    text-decoration: none;
+  
+    
+   
+}
+.diff-btn{
+    border-style: solid;
+    background-color: yellowgreen;
+    text-decoration: none;
+}
+.title{
+    color: #f3f1f1;
+    background-color: blue;
+    text-align: center;
+}
+.azkar{
+    border-style: solid;
+    border-color: blue;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.first-zekr .second-zekr .third-zekr{
+    flex-direction: column;
+    row-gap: 10px;
+}
+.subpara{
+    color:green;
+
+}
+.mintitle{
+    color: orange;
+}
+.title2{
+    color: #f3f1f1;
+    background-color: red;
+    text-align: center;
+}
+.all-body{
+    padding: 20px;
+    margin: -10px;
+    width: -50px;
+}
+.first-para{
+    border-style: solid ;
+    border-color: rgba(240, 248, 255, 0.836);
+}
+.second-para{
+    border-style: solid;
+    border-color: #f3f1f1cb;
+}
+.title2, .all-body{
+    border-style: solid;
+    border-color: red;
+}
+.footeer{
+    color: #f3f1f1;
+    background-color: rgba(0, 255, 255, 0.74);
+    display: flex;
+}
+.footer1{
+    
+}
+    
